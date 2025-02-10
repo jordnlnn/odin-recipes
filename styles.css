@@ -1,0 +1,59 @@
+body {
+    background-color: #fefefe;
+}
+
+.row {
+    text-align: center;
+}
+
+.heading-row {
+    margin: 0 0 55px 0;
+    padding: 0;
+}
+
+.recipes-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.recipe-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: inherit;
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.recipe-box:hover {
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.06);
+    transform: scale(1.01) translateY(-3px);
+    transition: all 0.5s ease-out;
+}
+
+#blue-corn-mush-box {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255,255,255,0.8)), url("https://i0.wp.com/thefancynavajo.com/wp-content/uploads/2020/07/IMG_6863.jpg?resize=768%2C1024&ssl=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#mutton-stew-box {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255,255,255,0.8)), url("https://i0.wp.com/thefancynavajo.com/wp-content/uploads/2019/03/IMG_2139-1.jpg?resize=982%2C1473&ssl=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#spam-and-potatoes-box {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255,255,255,0.8)), url("https://i0.wp.com/thefancynavajo.com/wp-content/uploads/2020/08/IMG_7447.jpg?resize=768%2C1024&ssl=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
